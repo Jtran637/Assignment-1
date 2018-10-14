@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="exercise,gym,work out,fitness,extreme,contact">
+    <meta name="description" content="Contact info">
+    <meta name="author" content="Jason Tran">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Company Logo" width="200" height="200" align="left" />
+        <h1 style="font-size:2vw;">Extreme Fitness</h1>
+        <h1><strong><u>Contact Information</u></strong></h1>
+
+        <nav>
+            <ol>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="Services.html" target="_blank">Services and Products</a></li>
+                <li><a href="About.html" target="_blank">About Us</a></li>
+            </ol>
+        </nav>
+        <hr/><br/>
+    </header>
+
+    <p>
+        If you have any concerns or issues regarding our policies or facilities, please let us know by contacting one of our employees or if that does not work for you, feel free to contact us at:<br/> ExtremeFitness@gmail.com
+        <br/> 403-123-4321
+        <br/><br/>
+    </p>
+
+    <form method="POST" action="mailto:jtran637@mtroyal.ca">
+        <input type="hidden" name="subject" value="contactform" />
+        <p>
+            <label> Name:
+                    <input name="fullname" type="text" size="24" maxlength="30" required/>
+            </label>
+        </p>
+        <p>
+            <label> Email:
+                    <input name="email" type="email" placeholder="example@mtroyal.ca" pattern="[a-z0-9._%+]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="24" maxlength="40" required/>
+            </label>
+        </p>
+        <p>
+            <label> Phone Number:
+                    <input name="tel" type="tel" placeholder="123-456-7890" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}"/>
+            </label>
+        </p>
+        <p>
+            <label>Date:
+                <input name="date" type="date"/>
+            </label>
+        </p>
+        <label><h4>Inquiries:</h4></label>
+        <textarea></textarea>
+        <br/><br/>
+        <input type="reset" value="Clear" />
+        <input type="Submit" value="Submit" />
+
+    </form>
+</body>
+
+</html>
